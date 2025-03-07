@@ -1,0 +1,42 @@
+body {
+	background: black;
+}
+copyandpasteintoyourstyles.cssfile,thefollowingcode: * {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+.postcard {
+	width: 400px;
+	height: 300px;
+	background-color: white;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	width: 50;
+	height: 50;
+}
+.postcard-header h1 {
+	width: 10;
+	margin: 100;
+	padding-top: 10px;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: 0;
+}
+body-left,
+.body-right {
+	padding: 10px;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: cadetblue;
+	padding: 50px 10px;
+}
